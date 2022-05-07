@@ -1,0 +1,30 @@
+.site_container{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    nav{
+        width: inherit;
+        height: 60px;
+        box-shadow: 0 10px 5px gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        .logo{
+            font-size: 2.5rem;
+            user-select: none;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            li{
+                margin-right: 20px;
+                font-size: 1.2rem;
+                color: rgb(82, 80, 80);
+                user-select: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

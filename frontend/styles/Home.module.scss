@@ -1,0 +1,37 @@
+.main{
+    width: inherit;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        font-size: 2.5rem;
+        color: rgb(57, 56, 56);
+        margin-top: -70px;
+        margin-bottom: 30px;
+    }
+    h2{
+        font-size: 1.9rem;
+        color: rgb(88, 86, 86);
+        margin-top: 10px;
+     
+    }
+    h3{
+        font-size: 1.6rem;
+        color: gray;
+        margin-top: 120px;
+    }
+    button{
+        width: max-content;
+        padding: 0 100px;
+        height: 40px;
+        border-radius: 20px;
+        cursor: pointer;
+        outline: none;
+        background: none;
+        border: 1px solid gray;
+        font-size: 1.2rem;
+        margin-top: 15px;
+    }
+}
