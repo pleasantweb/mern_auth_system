@@ -9,7 +9,7 @@ DATABASE_URI = 'mongodb://localhost:27017/database_name'
 
 SITE_NAME = ''                     <---- To add site name in email
 EMAIL_FROM= ''                     <---- Your email id
-EMAIL_PASS = ''    <--- Your email password
+EMAIL_PASS = ''                    <--- Your email password
 NODE_ENV = 'development'
 FRONT_END_URL = 'http://localhost:3000'
 
